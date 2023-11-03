@@ -102,6 +102,8 @@ jobs:
         Appx_Bundle_Platforms: x86|x64
         Appx_Package_Build_Mode: StoreUpload
         Configuration: ${{ matrix.configuration }}
+        steps:
+- task: MicrosoftSecurityDevOps@1
 
     # Remove the pfx
     - name: Remove the pfx
