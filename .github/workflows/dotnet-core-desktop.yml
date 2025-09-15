@@ -47,7 +47,7 @@ on:
 jobs:
 
   build:
-
+Permissions: [contents:read] 
     strategy:
       matrix:
         configuration: [Debug, Release]
